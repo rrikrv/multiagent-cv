@@ -18,19 +18,19 @@ The system implements:
 - **Universal polygon support**: works with any map in standard format
 
 ## Project Structure
-multiagent_cv/
-├── data/
-│   ├── warehouse/      # MAPD scenario
-│   ├── maze/           # MAPF scenario
-│   ├── bottleneck/     # MAPF scenario
-│   └── thin_walls/     # MAPF scenario
-├── src/
-│   ├── main.py         # Entry point
-│   ├── simulator.py    # A* navigation and conflict resolution
-│   ├── map_parser.py   # PNG map binarization
-│   └── cv_module.py    # CV classification and visualization
-└── requirements.txt
 
+    multiagent_cv/
+    ├── data/
+    │   ├── warehouse/      # MAPD scenario
+    │   ├── maze/           # MAPF scenario
+    │   ├── bottleneck/     # MAPF scenario
+    │   └── thin_walls/     # MAPF scenario
+    ├── src/
+    │   ├── main.py         # Entry point
+    │   ├── simulator.py    # A* navigation and conflict resolution
+    │   ├── map_parser.py   # PNG map binarization
+    │   └── cv_module.py    # CV classification and visualization
+    └── requirements.txt
 ## Installation
 
 ```bash
